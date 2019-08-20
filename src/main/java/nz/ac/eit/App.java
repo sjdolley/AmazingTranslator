@@ -9,6 +9,9 @@ package nz.ac.eit;
     public static void main( String[] args )
     {
         System.out.println( "Hello World! has changed" );
+        System.out.println("What is the number to translate");
+        Scanner scan = new Scanner(System.in);
+        String somevariable = scan.nextline();
     }
 }
  */
