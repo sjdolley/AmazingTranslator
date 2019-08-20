@@ -12,6 +12,8 @@ package nz.ac.eit;
         System.out.println("What is the number to translate");
         Scanner scan = new Scanner(System.in);
         String somevariable = scan.nextline();
+        int aInt = Integer.parseInt(somevariable);
+        System.out.println("Ze number is ", +aInt);
     }
 }
  */
